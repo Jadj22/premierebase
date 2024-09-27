@@ -32,7 +32,7 @@ const AddTask = ({ tasklist, setTasklist, task, setTask }) => {
           type="text"
           name='task'
           autoComplete='off'
-          placeholder='add task'
+          placeholder='ajouter une tâche'
           maxLength="25"
           value={task.name || ""}
           onChange={(e) => setTask({ ...task, name: e.target.value })} // Gestion du changement
